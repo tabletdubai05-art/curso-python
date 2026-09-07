@@ -1,0 +1,77 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 🐍 Aula 1.1: O Python é uma super calculadora! 🧮\n",
+    "\n",
+    "Fala, programador! Preparado para dar mais um passo na nossa jornada? 🚀\n",
+    "\n",
+    "Na aula passada (1.0), você aprendeu a criar caixinhas mágicas (variáveis) para guardar textos e números. Hoje, você vai descobrir o superpoder que o Python tem para fazer contas mais rápido do que um piscar de olhos!\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### ➕ Símbolos Matemáticos da Programação\n",
+    "No dia a dia, a gente usa o `x` para multiplicar e o `÷` para dividir, certo? Mas no computador, os símbolos mudam só um pouquinho. Olhe a tabelinha que você precisa decorar:\n",
+    "\n",
+    "*   `+` ➔ **Somar** (Igualzinho à escola)\n",
+    "*   `-` ➔ **Subtrair** (Igualzinho à escola)\n",
+    "*   `*` ➔ **Multiplicar** (Usamos o asterisco!)\n",
+    "*   `/` ➔ **Dividir** (Usamos a barra inclinada!)\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### 🛒 Fazendo contas com as Caixinhas\n",
+    "Imagine que você foi ao mercado comprar as coisas para o nosso café da tarde. \n",
+    "A gente pode criar uma caixinha para o preço do café, outra para o preço do pão, e mandar o Python somar tudo automaticamente!\n",
+    "\n",
+    "Olhe como é simples de ler:\n",
+    "`preco_cafe = 4.50`\n",
+    "`preco_pao = 6.00`\n",
+    "`total = preco_cafe + preco_pao`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# === 🚀 HORA DE COMPRAR O CAFÉ DA TARDE! ===\n",
+    "\n",
+    "# 1. Guardamos os preços nas variáveis:\n",
+    "preco_cafe = 5.50\n",
+    "preco_pao = 4.00\n",
+    "\n",
+    "# 2. O Python faz a conta de somar sozinho:\n",
+    "total = preco_cafe + preco_pao\n",
+    "\n",
+    "# 3. Exibimos o resultado usando a receita da aula passada:\n",
+    "print(f\"O café custou R$ {preco_cafe} e o pão custou R$ {preco_pao}.\")\n",
+    "print(f\"O valor total da nossa conta deu: R$ {total} ☕\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 🎯 Sua Missão Prática:\n",
+    "1. Clique no bloco de código acima.\n",
+    "2. Imagine que você comprou um bolo de R$ 15.00. Crie uma caixinha chamada `preco_bolo = 15.00` na linha de cima.\n",
+    "3. Altere a linha da conta para somar o bolo também, ficando assim: `total = preco_cafe + preco_pao + preco_bolo`.\n",
+    "4. Clique no botão de **Play ▶️** e veja o novo valor da conta aparecer!\n",
+    "\n",
+    "Viu que fácil? O Python é a calculadora mais rápida que você já usou! 🎉"
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
+
